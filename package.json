@@ -1,6 +1,6 @@
 {
   "name": "generate-openapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert JSON object to Open API Speccification",
   "main": "generate-openapi.js",
   "scripts": {
