@@ -1,0 +1,27 @@
+{
+  "name": "jsontoopenapi",
+  "version": "1.0.0",
+  "description": "Convert JSON object to Open API Speccification",
+  "main": "jsontoopenapi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklabh/jsontoopenapi.git"
+  },
+  "keywords": [
+    "json",
+    "open",
+    "api"
+  ],
+  "bin": {
+    "jsontoopenapi": "jsontoopenapi.js"
+  },
+  "author": "niklabh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niklabh/jsontoopenapi/issues"
+  },
+  "homepage": "https://github.com/niklabh/jsontoopenapi#readme"
+}
