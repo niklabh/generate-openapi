@@ -1,4 +1,4 @@
-# jsontoopenapi
+# generate-openapi
 Convert JSON document to [Open API](https://swagger.io/docs/specification/about/) YML Specification
 
 # usage
@@ -6,19 +6,19 @@ Convert JSON document to [Open API](https://swagger.io/docs/specification/about/
 As binary:
 
 ```sh
-jsontoopenapi file.json type
+generate-openapi file.json type
 ```
 
 As npm package:
 
 ```sh
-npm install jsontoopenapi
+npm install generate-openapi
 ```
 
 ```js
-const jsontoopenapi = require('jsontoopenapi')
+const generateOpenapi = require('generate-openapi')
 
-console.log(jsontoopenapi({a:{b:{c:1,d:'e'},f:1}}, 'type'))
+console.log(generateOpenapi({a:{b:{c:1,d:'e'},f:1}}, 'type'))
 ```
 
 

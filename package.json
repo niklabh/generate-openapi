@@ -1,14 +1,14 @@
 {
-  "name": "@niklabh/jsontoopenapi",
+  "name": "generate-openapi",
   "version": "1.0.0",
   "description": "Convert JSON object to Open API Speccification",
-  "main": "jsontoopenapi.js",
+  "main": "generate-openapi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/niklabh/jsontoopenapi.git"
+    "url": "git+https://github.com/niklabh/generate-openapi.git"
   },
   "keywords": [
     "json",
@@ -16,12 +16,12 @@
     "api"
   ],
   "bin": {
-    "jsontoopenapi": "jsontoopenapi.js"
+    "generate-openapi": "generate-openapi.js"
   },
   "author": "niklabh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/niklabh/jsontoopenapi/issues"
+    "url": "https://github.com/niklabh/generate-openapi/issues"
   },
-  "homepage": "https://github.com/niklabh/jsontoopenapi#readme"
+  "homepage": "https://github.com/niklabh/generate-openapi#readme"
 }
