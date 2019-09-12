@@ -60,18 +60,27 @@ const recurse = (a, type, num) => {
   }
 }
 
-if (!process.argv[2] || !process.argv[2]) {
-  console.log(`Usage:
-  jsontoopenapi file.json type
-  `)
-  process.exit(1);
+const jsontoopenapi = (json, type) => {
+  console.log(type + ":")
+  console.log(pad(2) + "type: object")
+  console.log(pad(2) + "properties:")
+
+  recurse(json, type, 3)
 }
 
-const json = require('./' + process.argv[2])
-const type = process.argv[3]
+module.exports = jsontoopenapi
 
-console.log(type + ":")
-console.log(pad(2) + "type: object")
-console.log(pad(2) + "properties:")
+if (require.main === module) {
+  if (!process.argv[2] || !process.argv[3]) {
+    console.log(`Usage:
+    jsontoopenapi file.json type
+    `)
+    process.exit(1);
+  }
 
-recurse(json, process.argv[3] || '', 3)
+  const json = require('./' + process.argv[2])
+  const type = process.argv[3]
+
+  jsontoopenapi(json, type)
+}
+
