@@ -1,5 +1,7 @@
 #! /usr/bin/env node
 
+const path = require('path')
+
 const pad = (num) => {
   let pad = ""
   for (let i = 0; i < num; i++) {
@@ -78,7 +80,7 @@ if (require.main === module) {
     process.exit(1);
   }
 
-  const json = require('./' + process.argv[2])
+  const json = require(path.resolve(process.argv[2]))
   const type = process.argv[3]
 
   jsontoopenapi(json, type)
