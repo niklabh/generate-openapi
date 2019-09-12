@@ -1,5 +1,5 @@
 # jsontoopenapi
-Convert JSON document to [Open API](https://swagger.io/docs/specification/about/) Specification
+Convert JSON document to [Open API](https://swagger.io/docs/specification/about/) YML Specification
 
 # usage
 

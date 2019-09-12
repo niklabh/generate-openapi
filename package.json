@@ -1,5 +1,5 @@
 {
-  "name": "jsontoopenapi",
+  "name": "@niklabh/jsontoopenapi",
   "version": "1.0.0",
   "description": "Convert JSON object to Open API Speccification",
   "main": "jsontoopenapi.js",
