@@ -1,2 +1,8 @@
 # jsontoopenapi
-Convert JSON document to Open API Speccification
+Convert JSON document to Open API Specification
+
+# usage
+
+```sh
+jsontoopenapi file.json type
+```
